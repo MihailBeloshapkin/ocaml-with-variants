@@ -2,5 +2,5 @@
 simple mini-ML interpreter
 
 # current features:
--- base ML syntax
--- type inference
+<li> base ML syntax
+<li> type inference
