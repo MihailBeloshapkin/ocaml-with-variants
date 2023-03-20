@@ -1,0 +1,14 @@
+(executable
+ (name declAppl)
+ (modules declAppl)
+ (public_name declAppl)
+ (libraries OCaml-with-variants.OCamli))
+
+(executable
+ (name simpleFuncs)
+ (modules simpleFuncs)
+ (public_name simpleFuncs)
+ (libraries OCaml-with-variants.OCamli stdio))
+
+(cram
+ (deps ./declAppl.exe ./simpleFuncs.exe ../REPL.exe))
